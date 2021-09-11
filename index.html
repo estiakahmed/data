@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>data transfer</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <form action="another.html" method="POST">
+            <label for="estamitevalue">Estimate Value</label><br />
+
+            <input  type="text" name="propertyvalue" placeholder="property" /><br />
+            <br />
+            <label  for="postCode">postcode</label><br />
+
+            <input type="text" name="dateOfBirth" placeholder="" /><br />
+            <br />
+            <label for="dateOfbirth">Date of Birth</label><br />
+
+            <input type="text" name="DateofBirth" placeholder="" /><br />
+            <br />
+            <label for="firstname">FirstName</label><br />
+
+            <input type="text" id="firstname" name="FirstName" placeholder="" /><br />
+            <br />
+            <label for="LastName">Last Name</label><br />
+
+            <input type="text" id="lastname" name="LastName" placeholder="" /><br />
+            <br />
+            <label for="contact">Mobile Number</label><br />
+
+            <input type="text" id="contactnumber" name="mobileNumber" placeholder="" /><br />
+            <br />
+            <label for="email">Email Address</label><br />
+            
+            <input type="text" id="Email" name="email" placeholder="" /><br />
+            <br />
+            <button type="submit" onclick="handleSubmit()">calculate Now</button>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
